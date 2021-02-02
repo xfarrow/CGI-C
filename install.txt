@@ -1,0 +1,10 @@
+-------INSTALLAZIONE------
+
+* Compilare i file "decrypt.c" e "encrypt.c" e copiare i file oggetto nella cartella /cgi-bin del weberver cambiando
+  estensionde (.exe o .out) a .cgi
+
+* Inserire i file login.html, QR.php, qrious.js e qrious.min.js nella cartella HTTP del webserver (htdocs Apache).
+
+* Aprire il file "QR.php" e cambiare il valore della variabile $bin nell'indirizzo pubblico del webserver
+
+* La cartella "useless" contiene file atti allo sviluppo. Non è necessaria alcuna azione su di essi
